@@ -28,6 +28,27 @@
   color: #61dafb;
 }
 
+.App-no-res {
+  color: tomato;
+}
+.App-res {
+  color: #8fbc8f;
+}
+
+.App-data-button {
+  background-color: rgba(189, 195, 199, 0.2);
+  border: 2px solid white;
+  font-size: calc(10px + 1vmin);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.App-data-button:hover {
+  background-color: rgba(189, 195, 199, 0.4);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
