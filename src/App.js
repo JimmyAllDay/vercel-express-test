@@ -7,7 +7,7 @@ function App() {
 
   async function fetchData() {
     try {
-      const response = await fetch(process.env.REACT_APP_API_URL);
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/test`);
       const parsedRes = await response.json();
       if (parsedRes.body) {
         setData(parsedRes.body);

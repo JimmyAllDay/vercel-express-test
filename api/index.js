@@ -6,7 +6,7 @@ const cors = require('cors');
 
 app.use(cors());
 
-app.get('/', (req, res) => {
+app.get('/api/test', (req, res) => {
   res.json({
     body: 'This message is returned from the server - the app is working.',
   });
